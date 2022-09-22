@@ -40,9 +40,6 @@ const {
     const line = [
       icon[index].padEnd(2),
       name,
-      '-',
-      `${playCount}`,
-      'plays',
     ];
 
     return [...prev, line.join(' ')];
